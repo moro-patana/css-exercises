@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-/* Body styles
-body {
+/*
+ Body styles */ body {
   font-family: sans-serif;
   font-size: 100%;
   margin: 0;
@@ -11,20 +11,20 @@ body {
   max-width: 30rem;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 35px rgba(0,0,0,.2);
+  box-shadow: 0 0 35px rgba(0,0,0,2);
 }
 
 /* Default styles for the children of the body */
 body > * {
-  padding: 1rem
+  padding: 1rem;
 }
 
 /* Link styles */
-a (
-  color: #366
-)
+a {
+  color: #366;
+}
 a:hover {
-  text-decoration: none
+  text-decoration: none;
 }
 
 /* Style up the header nicely */
@@ -39,20 +39,20 @@ headerh1 {
   text-shadow: 2px 2px 2px rgba(0,0,0,.2);
 }
 
-header h1::before
-header h1::after {
+header h1:before,
+header h1:after {
   content: '😎';
   display: inline-block;
-  margin: 0 .5rem;
+  margin: 0.1rem;
 }
 
 main {
-  background-color #f5f5f5
-  color #333
-  /* TODO Remove this comment flex-grow 1 */
-  display flex
-  flex-direction column
-  justify-content center
+  background-color: #f5f5f5;
+  color: #333;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Give the footer a slightly darker background, and put a button-like style on the anchor */
@@ -71,12 +71,11 @@ footer a {
 }
 
 /* Make the button bigger on hover */
-footer a-hover {
-  transform: scale(1.1)
-}
+footer a:hover {
+  transform: scale(1.1);
 
-@media (min-width: 480px {
-  h1 {
-    font-size: 2rem
+@media (min-width: 480px) {
+    h1 {
+    font-size: 2rem;
   }
 }
