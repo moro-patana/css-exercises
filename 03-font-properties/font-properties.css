@@ -1,8 +1,150 @@
-* {
 /*
-  Property name
-  Property description
+ * {
 */
-  /* Property example with a value */
+/*
+Font-family
+It specifies the font for an element.
+*/
+.font-family {
+  font-family: top;
+}
 
+/*
+Font-size
+It defines how large the character displayed on a screen.
+*/
+.font-size {
+  font-size: x-large;
+}
+
+/*
+Font-weight
+It changes the font into bold, normal or lighter
+*/
+.font-weight {
+  font-weight: lighter;
+}
+
+/*
+Font-style
+It allows the users to choose the style which they want.
+*/
+.font-style {
+    font-style: oblique;
+}
+
+/*
+Font-variant
+It can change the target text.
+*/
+.font-variant {
+  font-variant: small-caps;
+}
+
+/*
+Font-stretch
+It allows you to make text narrower or wider
+*/
+.font-stretch {
+  font-stretch: narrower;
+}
+
+/*
+Font-size-adjust
+It allows us to modify the size of the sceen.
+*/
+.font-size-adjust {
+  font-size-adjust: inherit;
+}
+
+/*
+Font-synthesis
+It combines several text into one.
+*/
+.font-synthesis {
+  font-synthesis: style;
+}
+/*
+Letter-spacing
+It sets a space between every single letters.
+*/
+.letter-spacing {
+  letter-spacing: inherit;
+}
+/*
+Word-spacing
+It sets a space between two words.
+*/
+.word-spacing {
+  word-spacing: 0cm;
+}
+
+/*
+Text-align
+It alignes the inner content of the block element.
+*/
+.text-align {
+  text-align: end;
+}
+
+/*
+Text-decoration
+It sets the text formatting to underline.
+*/
+.text-decoration {
+  text-decoration: yellowgreen;
+}
+
+/*
+Text-decoration-line
+It sets the kind of decoration such as an underline.
+*/
+.text-decoration-line {
+  text-decoration-line: underline;
+}
+
+/*
+Text-decoration-style
+Its sets the style of decoration which you want.
+*/
+.text-decoration-style {
+  text-decoration-style: dotted;
+}
+
+/*
+Text-decoration-color
+It sets the color of decoration added to text.
+*/
+.text-decoration-color {
+  text-decoration-color: violet;
+}
+/*
+Text-indent
+It describes the number of blank space to separate paragraphs.
+*/
+.text-indent {
+  text-indent: 0cm;
+}
+/*
+Text-transform
+It capitalizes an elements text.
+*/
+.text-transform {
+  text-transform: uppercase;
+}
+
+/*
+Vertical-align
+It controls how elements set next to each other.
+*/
+.vertical-align {
+  vertical-align: 0px;
+}
+
+/*
+White-space
+It helps us to separate paragraphs of text.
+*/
+.white-space {
+  white-space: pre-wrap;
 }
