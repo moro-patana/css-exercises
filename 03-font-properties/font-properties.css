@@ -35,7 +35,7 @@ It allows the users to choose the style which they want.
 
 /*
 Font-variant
-It can change the target text.
+It is an optional features.
 */
 .font-variant {
   font-variant: small-caps;
@@ -43,7 +43,7 @@ It can change the target text.
 
 /*
 Font-stretch
-It allows you to make text narrower or wider
+It sets how wide which character needs to be
 */
 .font-stretch {
   font-stretch: narrower;
@@ -51,7 +51,7 @@ It allows you to make text narrower or wider
 
 /*
 Font-size-adjust
-It allows us to modify the size of the sceen.
+It sets how
 */
 .font-size-adjust {
   font-size-adjust: inherit;
@@ -143,7 +143,7 @@ It controls how elements set next to each other.
 
 /*
 White-space
-It helps us to separate paragraphs of text.
+It controls what space character behave.
 */
 .white-space {
   white-space: pre-wrap;
