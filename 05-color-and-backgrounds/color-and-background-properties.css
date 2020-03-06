@@ -1,8 +1,107 @@
-* {
-  /*
-    Property name
-    Property description
-  */
-    /* Property example with a value */
+/*
+ Color
+*/
+/*
+It sets the foreground color value of an elements text.
+*/
+.color {
+  color: rebeccapurple;
+  border: currentColor solid 1px;
+}
 
-  }
+/*
+Background-color
+*/
+/*
+It sets the background color.
+*/
+
+.background-color {
+  background-color: lightblue;
+}
+
+/*
+Background-image
+*/
+/*
+It sets one or more background images for an element.
+*/
+
+.background-image {
+  background-image: -o-linear-gradient();
+}
+
+/*
+Background-repeat
+*/
+/*
+It used to repeat the background image both horizontally and vertically.
+*/
+
+.background-repeat {
+  background-repeat: space;
+}
+
+/*
+Background-position
+*/
+/*
+It allows us to define where a background image
+should be positioned within an element.
+*/
+.background-position {
+  background-position: 50px;
+}
+
+/*
+Background-attachement
+*/
+/*
+ It specifies whether the image set using background-image property
+is fixed with respect to the containing block or shall it scroll.
+*/
+
+.background-attachment {
+  background-attachment: scroll;
+}
+
+/*
+Background-clip
+*/
+/*
+It specifies the area within which the background is painted.
+*/
+
+.background-clip {
+  background-clip: border-box;
+}
+/*
+Background-origin
+*/
+/*
+It specifies what is called the background positioning area.
+*/
+.background-origin {
+  background-origin: padding-box;
+}
+/*
+Background-size
+*/
+/*
+It used to specify the size of background images.
+*/
+.background-size {
+  background-size: cover;
+}
+/*
+Box-shadow
+*/
+/*
+It adds shadow effects around an element's frame.
+*/
+.box-shadow {
+  box-shadow: 20px 10px 10px red;
+}
+
+
+
