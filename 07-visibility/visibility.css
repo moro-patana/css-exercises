@@ -1,18 +1,58 @@
 * {
 /*
   Property name
+  opacity
+  */
+  /*
   Property description
+  It specifies how transparent element is.
 */
   /* Property example with a value */
-}
+  p {
+    opacity: 1;
+  }
+
+/*
+  Property name
+  display
+  */
+  /*
+  Property description
+  It specifies the display behaviour.
+  */
+  /* Property example with a value */
+  p {
+    display: inherit;
+  }
+/*
+  Property name
+  visibility
+  */
+  /*
+  Property description
+  It hides row and column of table.
+  */
+  /* Property example with a value */
+  p {
+    visibility: visible;
+  }
 
 /*
   Questions
   =======================
 
   - What is the difference between `opacity` and a `background-color` that is semi-transparent?
+
+  opacity: all of its child elements inherit the transparency. That makes the text difficult to read.
+  background-color: default value:transparent.
+
   - What is the difference between `display: none;` and `visibility: hidden;`?
+
+  `display: none`: hides the whole element.
+  `visibility: hidden`: hides an element but take up the same space as before.
+
   - Why would we use `visibility: visible;`?
+We would use it because we want to hold its space even when it's not seen.
 
 */
 
