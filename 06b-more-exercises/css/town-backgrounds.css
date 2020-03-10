@@ -1,0 +1,81 @@
+html {
+
+}
+
+body {
+  background-color: ;
+ }
+
+
+
+
+#cloud-1 {
+    background-image: url("../images/cloud.svg");
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+
+  }
+
+#cloud-2 {
+  background-image: url("../images/cloud.svg");
+  width: 50px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: 20% 70% ;
+}
+
+
+#house-1 {
+  background-image: url("../images/house-1.svg");
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+#house-2 {
+  background-image: url("../images/house-2.svg");
+  width: 56px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+
+#car {
+  background-image: url("../images/car.svg");
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+
+}
+
+#tree {
+  background-image: url("../images/tree.svg");
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: 50% 65%;
+
+}
+
+#palm {
+  background-image: url("../images/palm-tree.svg");
+  width: 56px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: 65% 80%;
+
+}
+
+#sun {
+  background-image: url("../images/sun.svg");
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-position: 60% 70%;
+
+}
