@@ -1,0 +1,25 @@
+body {
+
+}
+
+li > a[href*="/"] {
+  visibility: visible;
+}
+
+
+li > a[href*="about"] {
+  visibility: hidden;
+}
+li > a[href*="contact"] {
+  visibility: hidden;
+}
+
+[data-bg-color="yellow"],
+[data-bg-color="blue"],
+tr:nth-child(2),
+span {
+  display:none;
+}
+span {
+  opacity:0.5;
+}

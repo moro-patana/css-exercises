@@ -1,7 +1,73 @@
-* {
+
+
+
   /*
-    Property name
-    Property description
-  */
+    Property name */
+    content-box
+    /*Property description */
+    It is a box where the text is placed.
+
     /* Property example with a value */
-  }
+    p {
+     content: normal;
+    }
+
+    /*
+    Property name */
+    padding-box
+    /*Property description */
+    It is the box which wraps the content-box.
+
+    /* Property example with a value */
+    p {
+     padding: 1rem;
+    }
+  /*
+    Property name */
+    border-box
+    /*Property description */
+    It is a box which wraps the padding-box.
+
+    /* Property example with a value */
+    p {
+     border: solid;
+    }
+
+/*Border: It is the line which determine the border-box's area.*/
+h1 {
+ border: 2px solid green;
+}
+/*Margin: It is the line marges the margin-box.*/
+h1 {
+  margin: auto;
+}
+/*Padding: It is a line which is around the padding-box.*/
+h1 {
+  padding: 1rem;
+}
+
+/*Displlay: It specifies the display behaviour.*/
+p {
+  display: flex;
+}
+
+/*Box-sizing: It used to make the border and padding fit the space.*/
+p {
+  box-sizing: border-box;
+
+/*When two different sized marging of two different boxes collide, they will be
+together.*/
+
+/*Based on how much space the width is./*
+/*
+The padding and border will fit in the element's area.*/
+/*Difference between:
+
+display:inline
+It sets an element into the same line.
+
+Block: running down.
+
+display: inline-block
+You can use: line height, font-size.
+*/
