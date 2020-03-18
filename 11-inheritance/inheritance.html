@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>11-inheritance</title>
+</head>
+<body>
+  <header>
+    <h1>Inheritance</h1>
+  </header>
+<main>
+<section>
+  <header>
+    <h2> What do we mean by <i><abbr title="Cascading Style Sheet">CSS</abbr> inheritance</i>?</h2>
+  </header>
+  <p>It means the child element inherits the property value by default.</p>
+
+<p>If you did not specify which element do you want to style, all of the element child will inherit the color
+  or background-position, etc.</p>
+
+</section>
+<section>
+  <header>
+    <h2>
+      Which properties have values that are inherited by default?
+    </h2>
+  </header>
+  <p>
+    These are the properties have values that are inherited by default:
+  </p>
+  <nav>
+    <ul>
+        <li>border-spacing</li>
+        <li>color</li>
+        <li>font-family</li>
+        <li>font-size</li>
+        <li>font-style</li>
+        <li>font-variant</li>
+        <li>font-weight</li>
+        <li>font</li>
+        <li>letter-spacing</li>
+        <li>line-height</li>
+        <li>text-align</li>
+        <li>text-indent</li>
+        <li>text-transform</li>
+        <li>visibility</li>
+        <li>white-space</li>
+        <li>word-spacing</li>
+    </ul>
+  </nav>
+</section>
+<section>
+  <header>
+    <h2>
+      The difference between the `currentColor` and `inherit`
+      keywords when used with colour values
+    </h2>
+  </header>
+  <p>
+    <q>Currentcolor</q> is the color of the current text.
+  </p>
+  <p>
+    <q>Inherit</q> means the color of the current text is applied to the element child.
+  </p>
+</section>
+<section>
+  <header>
+    <h2>
+      What are those keywords values do?
+    </h2>
+  </header>
+  <nav>
+    <ol>
+      <li>
+          revert: go back to the initial value of the property.
+      </li>
+      <li>
+          initial: applies the default value of an element.
+      </li>
+      <li>
+          unset: resets a property to its inherited value.
+      </li>
+    </ol>
+  </nav>
+</section>
+<section>
+  <header>
+    <h2>
+      There are dangers or unintended side-effects when using those keywords:
+    </h2>
+  </header>
+  <p>
+          <q>revert</q> and <q>unset</q> do not swipe out syles and allow inheritance.
+  </p>
+  <p>
+     <q>inherit</q> does not apply in an input element.
+  </p>
+  <p>
+    <q>initial</q> is unexpected on inherited properties.
+  </p>
+</section>
+<section>
+  <header>
+    <h2>
+      These are the possibilities with using an ancestor or universal selector,
+      combined with the `inherit` value:
+
+    </h2>
+  </header>
+  <nav>
+    <ol>
+      <li>
+        Universal selector applies style properties to all individual element.
+      </li>
+      <li>
+        Inherited style properties can replaced by universal selector.
+      </li>
+    </ol>
+  </nav>
+</section>
+</main>
+</body>
+</html>
