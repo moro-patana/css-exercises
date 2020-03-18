@@ -2,61 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>13-Generated content</title>
+  <title>13-generated-content</title>
 </head>
 <body>
   <header>
-    <h1>
-      Generated content, counters, and lists
-    </h1>
+    <h1>Generated content, counters, lists</h1>
   </header>
-  <main>
-    <article>
-      <section>
+  <nav>
+    <ul>
+      <li><a href="#section_pseudo">Pseudo-element</a></li>
+      <li><a href="#section_counters">Counters</a></li>
+      <li><a href="#section_lists">Lists</a></li>
+    </ul>
+  </nav>
+    <main>
+      <section id="section_pseudo">
         <header>
-          <h2>
-            Pseudo-elements
-          </h2>
+          <h2>Pseudo-element</h2>
         </header>
-        <p>
-          For a pseudo-element to work, the special property sets for the element is <q>content</q>
-        </p>
-        <p>
-          The various pseudo-element are: ::after, ::before, ::first-letter, ::first-line, ::section
-        </p>
-        <p>
+        <ol>
+          <li>For a pseudo-element to work, the special property
+              sets for the element is <q>content</q></li>
+          <li>We can use
+             <ol>
+               <li>counter</li>
+             </ol>
+          </li>
+          <li> The various pseudo-element are:
+              <ol>
+                <li>::before</li>
+                <li>::after</li>
+                <li>::first-letter</li>
+                <li>::first-line</li>
+                <li>::section</li>
+              </ol>
+          </li>
+          <li>
           We use pseudo-element to specify where do we want to put the style.
-        </p>
+          </li>
+        </ol>
       </section>
-      <secction>
+      <section id="section_counters">
         <header>
-          <h2>
-            Counters
-          </h2>
+          <h2>Counters</h2>
         </header>
-        <p>
-           In <abbr title="Cascading Style Sheet">CSS</abbr> we use the following declaration
-           to count:
-           <br>
-           content: "[" counter(name) "] == [" counter(name,style or string) "]"
-        </p>
-        <p>
-       We reset a counter by using this property whit value:<br>
-       reset-counter: value;
-        </p>
-        <p>
-
-        </p>
-        <section>
-          <header>
-            <h2>
-              Lists
-            </h2>
-          </header>
-          <p>
-            
-          </p>
-        </section>
-
-</body>
+        <ol>
+            <li>
+              In <abbr title="Cascading Style Sheet">CSS</abbr> we use the following declaration
+              to count:
+              <ol>
+                <li>content: "[" counter(name) "] == [" counter(name, style or string) "]"</li>
+              </ol>
+            </li>
+            <li>We reset a counter by using this property with value: reset-counter: value;</li>
+        </ol>
+      </section>
+      <section id="section_lists">
+        <header>
+          <h2>Lists</h2>
+        </header>
+        <ol>
+          <li>Properties only relate to lists:
+              <ol>
+                <li>list-style</li>
+                <li>list-style-image</li>
+                <li>lists-style-position</li>
+                <li>list-style-type</li>
+              </ol>
+          </li>
+          <li>
+            There are many types of bullet:
+              <ol>
+                <li>Circle</li>
+                <li>Square</li>
+                <li>Disc</li>
+                <li>Decimal</li>
+                <li>Lowercase ascii letters</li>
+                <li>Image<l/li>
+              </ol>
+          </li>
+          <li>
+            We can style <code>&lt;link&gt;</code> to look like a list
+          </li>
+        </ol>
+      </section>
+    </main>
+  </body>
 </html>
