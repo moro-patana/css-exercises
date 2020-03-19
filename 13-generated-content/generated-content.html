@@ -25,7 +25,9 @@
               sets for the element is <q>content</q></li>
           <li>We can use
              <ol>
-               <li>counter</li>
+               <li>content: counter(clause)</li>
+               <li>content: attr("action")</li>
+               <li>content: url("image url")</li>
              </ol>
           </li>
           <li> The various pseudo-element are:
@@ -54,7 +56,7 @@
                 <li>content: "[" counter(name) "] == [" counter(name, style or string) "]"</li>
               </ol>
             </li>
-            <li>We reset a counter by using this property with value: reset-counter: value;</li>
+            <li>We reset a counter by using this property with value: counter-reset: value;</li>
         </ol>
       </section>
       <section id="section_lists">
@@ -82,7 +84,7 @@
               </ol>
           </li>
           <li>
-            We can style <code>&lt;link&gt;</code> to look like a list
+            Yes. We can style any element to look like a list.
           </li>
         </ol>
       </section>
