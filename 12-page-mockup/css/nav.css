@@ -8,9 +8,7 @@ body > nav {
  nav li {
 display: inline;
  }
- li:not(:first-child) {
-  border-left: gray 1px solid;
-}
+
  nav > li a {
    text-decoration: none;
    color: white;
