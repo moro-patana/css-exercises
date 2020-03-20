@@ -1,9 +1,36 @@
 /* Styles for all mediums go here */
 @media all {
-
+}
+@media screen {
+  body {
+    font-size: 30px;
+    line-height: 1rem;
+    margin: 2rem;
+    background-color: #ffffff;
+  }
 }
 
 /* Only styles for printers please */
 @media print {
 
+  a::after {
+    content: "(" attr(href) ")";
+    color: blue;
+
+  }
+  abbr::after {
+    content: "(" attr(title) ")";
+    color:red;
+  }
+  blockquote::after {
+    content: "(" attr(cite) ")";
+    color: yellow;
+  }
+}
+
+/*@media print {
+  a[href*='//en.wikipedia.org/wiki/Tenrec']:after {
+      content:" (" attr(href) ") ";
+      color:#000000;
+  }
 }
