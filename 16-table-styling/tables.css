@@ -1,0 +1,34 @@
+body {
+  width: 600px;
+  border: 1px solid;
+}
+
+header  > h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+section > h2 {
+  font-stretch: narrower;
+  font-size: 17px;
+  display: table-cell;
+  table-layout: fixed;
+  vertical-align: middle;
+  padding-left: 4rem;
+  font-weight: bold;
+  width: 200px;
+}
+section > p {
+  display: table-cell;
+  table-layout: fixed;
+  vertical-align: middle;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-block-start: 1rem;
+  font-weight: bold;
+  min-width: 400px;
+}
+footer {
+  padding-block-end: 1rem;
+}
