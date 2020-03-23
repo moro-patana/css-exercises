@@ -1,0 +1,83 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>17-overflow</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Overflow and Clipping
+      </h1>
+    </header>
+    <main>
+      <section>
+        <header>
+          <h2>
+            Default values
+          </h2>
+        </header>
+        <nav>
+          <ul>
+            <li>overflow: visible</li>
+            <li>clip: auto</li>
+            <li>clip-path: auto</li>
+            <li>text-overflow: hidden</li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <header>
+          <h2>
+            Why would we use these properties? What makes them useful?
+          </h2>
+        </header>
+        <nav>
+          <ul>
+            <li>overflow: helps the users how to make the context fit on the container.</li>
+            <li>clip: it hides the rest of the context out of the countainer.</li>
+            <li>clip-path: specifies what element do you want to display.</li>
+            <li>text-overflow: deals with the overflowing element's box.</li>
+          </ul>
+
+        </nav>
+      </section>
+      <section>
+        <header>
+          <h2>
+            The other properties need to be set before these
+            properties can work effectively:
+          </h2>
+        </header>
+        <nav>
+          <ul>
+            <li>overflow: width, heigth, border</li>
+            <li>clip: position</li>
+            <li>clip-path: margin</li>
+            <li>text-overflow: white-space, overflow</li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <header>
+          <h2>
+            General questions
+          </h2>
+        </header>
+        <nav>
+          <ol>
+            <li>The browser's default way to handle contents
+              that are larger than its container is clip.</li>
+            <li>An Ellipsis is the extra words replace by three dotes.
+              An Ellipse is a shape function such as circle, rectangle.
+            </li>
+            <li>Text overflow has difference from the other properties because it helps the user
+              when the text run out of the container.
+            </li>
+          </ol>
+        </nav>
+      </section>
+    </main>
+
+  </body>
+  </html>
