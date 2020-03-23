@@ -13,11 +13,11 @@
         Default values of the following properties:
         <nav>
           <ul>
-            <li>border-spacing: capacity</li>
+            <li>border-spacing: 2px</li>
             <li>
               table-layout: auto;
             </li>
-            <li>border-spacing: separate;</li>
+            <li>border-collaps: separate;</li>
             <li>
               caption-side: top;
             </li>
@@ -53,11 +53,11 @@
             <nav>
               <ol>
                 <li>The other declaration border-spacing requires
-                  before it can work effectively is <q>padding</q>.</li>
+                  before it can work effectively is <q>border-collaps: separate</q>.</li>
                 <li>The downsides of using the various table* values for display on a set of elements, thereby simulating
                   a table layout on non-table elements are:
                   <ol>
-                    <li>It is slower loading and rending.</li>
+                    <li>You will miss the relationship.</li>
                     <li>It makes content inaccessible.</li>
                     <li>It is difficult to control.</li>
                   </ol>
@@ -68,7 +68,7 @@
                     <li>table-layout: auto: makes the width of the column to fit the content.</li>
                   </ol>
                 </li>
-                <li>We can not use border-spacing and other table-like property on non-table element.</li>
+                <li>We can use border-spacing and other table-like property on non-table element.</li>
                 <li> empty-cells requires border-collaps with a value <q>separate</q> before it can work effectively.</li>
               </ol>
             </nav>
