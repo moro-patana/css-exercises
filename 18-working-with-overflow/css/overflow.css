@@ -11,7 +11,7 @@
   clip-path: circle(10% at 64.5% 25%);
 }
 #clipping_poly .example {
-  clip-path: polygon(72% 42%, 113% 41%, 55% 56%);
+  clip-path: polygon(70% 47%, 226% 97%, 55% 56%);
 }
 #overclip img {
   overflow: auto;
