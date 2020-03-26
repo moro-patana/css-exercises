@@ -1,0 +1,24 @@
+.breadcrumb ol {
+  display: flex;
+  list-style: none;
+}
+
+.breadcrumb li::before {
+  content: "";
+  position: absolute;
+  border-inline-start: 10px solid red;
+  border-inline-end: 10px solid transparent;
+  border-block-start: 10px solid transparent;
+  border-block-end: 10px solid transparent;
+}
+.breadcrumb .a11y {
+margin: 1rem;
+}
+.breadcrumb ol li {
+  margin: 1rem;
+}
+
+.breadcrumb li:first-child::before {
+  content: "";
+  display: none;
+}
