@@ -1,1 +1,6 @@
 @import "setup.css";
+
+@import "icons.css";
+@import "checkbox.css";
+@import "breadcrumb.css";
+@import "progress-indicator.css";
