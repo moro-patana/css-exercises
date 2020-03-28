@@ -1,0 +1,30 @@
+section:first-of-type .container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+section:first-of-type .container .circle {
+  position: absolute;
+  width: 50px;
+  left: 9.4rem;
+  top: 9.4rem;
+}
+section:first-of-type .container .rect {
+  position: absolute;
+  width: 50px;
+  right: 9.4rem;
+  bottom: 9.4rem;
+
+}
+section:first-of-type .container .pipe {
+  position: absolute;
+  width: 50px;
+  top: 9.4rem;
+}
+section:first-of-type .container .bar {
+  position: absolute;
+  width: 50px;
+  left: 9.4rem;
+  bottom: 9.4rem;
+}

@@ -1,0 +1,33 @@
+section:nth-of-type(2) > div {
+  height: 200px;
+  overflow: hidden;
+}
+section:nth-of-type(2) > div .circle:first-of-type {
+  width: auto;
+  position: relative;
+  right: 6rem;
+  bottom: 6rem;
+
+}
+
+section:nth-of-type(2) > div .circle:nth-of-type(2) {
+  width: auto;
+  position: relative;
+  left: 6.4rem;
+  bottom: 19rem;
+
+}
+section:nth-of-type(2) > div .circle:nth-of-type(3) {
+  width: auto;
+  position: relative;
+  right: 6rem;
+  bottom: 19rem;
+
+}
+section:nth-of-type(2) > div .circle:nth-of-type(4) {
+  width: auto;
+  position: relative;
+  left: 6.5rem;
+  bottom: 32rem;
+
+}

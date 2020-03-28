@@ -1,0 +1,33 @@
+section:nth-of-type(3) .container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+section:nth-of-type(3) .container .circle {
+  width: 200px;
+  position: absolute;
+}
+section:nth-of-type(3) .container .rect {
+  width: 100px;
+  position: absolute;
+  top:25%;
+  bottom: 25%;
+  left: 25%;
+  right: 25%;
+}
+section:nth-of-type(3) .container .pipe {
+  width: 100px;
+  position: absolute;
+  top:25%;
+  bottom: 25%;
+  left: 25%;
+  right: 25%;
+}
+section:nth-of-type(3) .container .bar {
+  width: 100px;
+  position: absolute;
+  top:25%;
+  bottom: 25%;
+  left: 25%;
+  right: 25%;
+}
