@@ -4,6 +4,7 @@ body > nav {
   font-size: 40%;
   text-align: end;
   text-transform: uppercase;
+  margin-block-start: -2.5rem;
  }
  nav li {
 display: inline;
