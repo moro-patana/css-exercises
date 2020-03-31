@@ -52,7 +52,7 @@
 }
 /* Current step -has bold */
 .progress_indicator b::before {
-background-color: chartreuse;
+  background-color: chartreuse;
 }
 /* Future step -spans */
 .progress_indicator span {
