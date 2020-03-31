@@ -1,0 +1,75 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Properties</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        Floats and block formating contexts
+      </h1>
+    </header>
+    <main>
+      <section>
+        <header>
+          <h2>
+            Floats
+          </h2>
+        </header>
+        <div>
+          <ol>
+            <li>
+              Default values:
+              <ol>
+                <li>float: none</li>
+                <li>clear: none</li>
+              </ol>
+            </li>
+            <li>The possible values for clear are:
+              <ol>
+                <li>left</li>
+                <li>right</li>
+                <li>both</li>
+              </ol>
+            </li>
+            <li>The rule associated with a floated item in terms of source order is that the float item must go
+              before.
+            </li>
+            <li>Yes. I think we can use float to another element besides an image.</li>
+            <li>
+              Yes. We can use pseudo element to create the two-columns layout.
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section>
+        <header>
+          <h2>
+            BFC (Block formatting context) is a set of rule how the box interract to another and ceates private container.
+          </h2>
+        </header>
+        <div>
+          <ol>
+            <li>We can 'clear' a float by creating a block formatting context on the parent, this is achieved by putting a
+              certain
+              set of properties on the container. These are the properties:
+              <ol>
+                <li>float: none</li>
+                <li>overflow: visible</li>
+                <li>display: inline-block</li>
+                <li>position: not static or relative</li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+            <p>Now, I am still struggling but when I get more explanation about the Block Formatting Contexts, I will not
+              forget about it tomorrow.
+            </p>
+      </section>
+    </main>
+  </body>
+
+  </html>
