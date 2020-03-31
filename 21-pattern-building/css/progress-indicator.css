@@ -25,7 +25,6 @@
   padding: 1rem;
   text-decoration: none;
   color: #000;
-  background-color: #999;
   padding-inline-start: 3rem;
   position: relative;
 }
@@ -76,39 +75,4 @@ background-color: chartreuse;
 
 }
 
-/*.progress_indicator li {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 10px 12px;
-  text-decoration: none;
-  font-size: 18px;
-  margin: 1rem;
-}
-.progress_indicator li:nth-child(1) {
-  padding-block-start: 3rem;
-  padding-block-end: 3rem;
-  margin: 0;
-
-}
-
-.progress_indicator li:nth-child(2) {
-  background-color: #4CAF50;
-  padding-block-start: 3rem;
-  padding-block-end: 3rem;
-  margin: 0;
-}
-.progress_indicator li:nth-child(3) {
-  padding-block-start: 3rem;
-  padding-block-end: 3rem;
-  margin: 0;
-
-}
-.progress_indicator li:nth-child(4) {
-  padding-block-start: 3rem;
-  padding-block-end: 3rem;
-  margin: 0;
-
-}
 
