@@ -1,0 +1,25 @@
+section:nth-of-type(4) .example header {
+  float: left;
+  margin-bottom: 2rem;
+  line-height: 36px;
+}
+section:nth-of-type(4) .form_row {
+  clear: both;
+  margin-bottom: 1rem;
+}
+section:nth-of-type(4) .form_toolbar button {
+  float: right;
+}
+
+ section:nth-of-type(4) .form_row label {
+  float: left;
+  line-height: 39px;
+  width: 9rem;
+  text-align: right;
+}
+section:nth-of-type(4) .field {
+  margin-inline-start: 10rem;
+}
+section:nth-of-type(4) .form_actions button {
+  margin-inline-start: 10rem;
+}

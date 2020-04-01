@@ -1,0 +1,10 @@
+section:nth-of-type(3) .container .header {
+  float: none;
+}
+section:nth-of-type(3) .article .navigation {
+  float: left;
+}
+section:nth-of-type(3) .container .sidebar {
+  float: right;
+}
+
