@@ -1,0 +1,18 @@
+section:nth-child(1) .container img:first-of-type {
+  float: left;
+  padding-block-end: 2rem;
+  margin-right: 1.5rem;
+}
+section:nth-child(1) .container img:nth-of-type(2){
+  float: right;
+  margin-left: 1rem;
+}
+section:nth-child(1) .container p {
+  font-size: 16px;
+}
+section:nth-child(1) .container p:nth-of-type(2){
+  clear: left;
+}
+section:nth-child(1) .container p:nth-of-type(3){
+  padding-block-start: 1rem;
+}
