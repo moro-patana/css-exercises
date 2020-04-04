@@ -1,3 +1,7 @@
 article {
   max-width: 50rem;
+  text-align: center;
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
+  margin-inline-start: 17rem;
 }

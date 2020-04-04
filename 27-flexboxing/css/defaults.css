@@ -5,7 +5,12 @@ html {
 }
 
 body {
+  border: 1px solid black;
   margin: 0;
+  margin: 0;
+  flex-direction: column;
+  align-content: stretch;
+  display: flex;
 }
 
 .a11y {
