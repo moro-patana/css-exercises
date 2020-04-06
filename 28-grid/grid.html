@@ -1,0 +1,44 @@
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <title>Grid</title>
+      </head>
+      <body>
+        <header>
+          <h1>
+            CSS Grid
+          </h1>
+        </header>
+        <main>
+      <div>
+        <ul>
+        <li>By default, grid has one column.</li>
+        <li>The difference between Flexbox and Grid
+          <ul>
+            <li>Flexbox is designed for one dimensional layout: row or column.</li>
+            <li>Grid is designed for both: row and column at the same time.</li>
+          </ul>
+        </li>
+        <li>I would use Flexbox because it controls all the child elements and adjusts
+          the number of items in each row.
+        </li>
+        <li>I would use Grid because we can use row and column at the same time.</li>
+        <li> A more concise way to write out the following: grid-template-columns: 10rem 10rem 10rem 10rem; is:
+          <ul>
+            <li>grid-template-columns: 10rem 1fr:</li>
+          </ul>
+        </li>
+        <li> we can specify a minimum height for a grid row, but still allow the row to increase in height if its content is too tall by
+          using:
+          <ul>
+            <li>
+              grid-template-row: minmax;
+            </li>
+          </ul>
+        </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
