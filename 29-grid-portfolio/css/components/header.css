@@ -1,5 +1,9 @@
 body > header {
-
+  display: grid;
+  grid-template-columns: repeat(6,145px);
+  row-gap: 15px;
+  column-gap: 30px;
+  align-items: end;
 }
 
 body > header h1 {
@@ -21,13 +25,19 @@ body > header a:hover {
 
 body > header nav {
   font-size: 1rem;
+
 }
 
 body > header h1 {
   font-size: 1.25rem;
+  margin-block-end: 0;
 }
 
 body > header ul {
+  display: grid;
+  grid-template-columns: repeat(5, 145px);
+  row-gap: 30px;
+  column-gap: 15px;
   list-style: none;
   margin: 0;
   padding: 0;
