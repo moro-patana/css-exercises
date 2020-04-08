@@ -4,6 +4,10 @@
   column-gap: 15px;
   margin-block-start: 1rem;
 }
+.works_item_navigation {
+  position: relative;
+  left: -0.75rem;
+}
 
 .works_item_header {
   color: #ccc;
@@ -18,9 +22,8 @@ margin-block-start: 1rem;
 }
 
 .works_item_navigation ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  display: inline-grid;
+  grid-auto-flow: column;
   list-style: none;
   margin: 0;
   padding: 0;
