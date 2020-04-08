@@ -1,0 +1,8 @@
+ header {
+  display: grid;
+  grid-template-columns: repeat(5, 145px);
+  column-gap: 15px;
+}
+header a {
+  text-decoration: none;
+}
