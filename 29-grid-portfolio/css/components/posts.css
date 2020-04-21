@@ -18,6 +18,14 @@ grid-area: header;
 .post_content {
 grid-area: content;
 }
+.post:nth-of-type(2n) .image_half {
+  float: left;
+  margin-inline-end: 15px;
+}
+.post:nth-of-type(2n+1) .image_half {
+  float: right;
+  margin-inline-start: 15px;
+}
 
 /* This element doubles as the post meta block. Links, metadata, etc */
 .post footer {
@@ -69,3 +77,17 @@ grid-area: content;
   height: 1px;
   background-color: #4d4d4d;
 }
+/*.post:nth-of-type(1) image_half {
+  float: left;
+  margin-inline-end: 15px;
+}
+.post:nth-of-type(2) image_half {
+  float: left;
+  margin-inline-end: 15px;
+}
+.post:nth-of-type(3) image_half {
+  float: left;
+  margin-inline-end: 15px;
+}
+
+
