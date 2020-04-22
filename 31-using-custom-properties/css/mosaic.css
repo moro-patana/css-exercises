@@ -1,3 +1,4 @@
+/*
 #c_and_i .row a                 { background-color: hsla(200deg, 100%, 50%, 0.1);}
 #c_and_i .row a + a             { background-color: hsla(200deg, 100%, 50%, 0.2);}
 #c_and_i .row a + a + a         { background-color: hsla(200deg, 100%, 50%, 0.3);}
@@ -8,3 +9,79 @@
 
   This would get crazy if I had to write out each and every anchor within each row, setting the unique `hsla()` per anchor.
 */
+:root {
+  --orange: hsla(36deg,100%, 50%);
+  --yellow:hsla(72deg, 100%, 50%);
+  --lawngreen: hsla(108deg, 100%, 50%);
+  --lawngreen: hsla(144deg, 100%, 50%);
+  --bluesky: hsla(180deg, 100%, 50%);
+  --darkblue: hsla(216deg, 100%, 50%);
+  --darkblue: hsla(252deg, 100%, 50%);
+  --purple: hsla(288deg, 100%, 50%);
+  --hotpink: hsla(324deg, 100%, 50%);
+  --red: hsla(360deg, 100%, 50%);
+}
+
+.table > .row > a:nth-of-type(1) {
+  opacity: 0.1;
+}
+.table > .row > a:nth-of-type(2) {
+  opacity: 0.2;
+}
+.table > .row > a:nth-of-type(3) {
+  opacity: 0.3;
+}
+.table > .row > a:nth-of-type(4) {
+  opacity: 0.4;
+}
+.table > .row > a:nth-of-type(5) {
+  opacity: 0.5;
+}
+.table  >.row > a:nth-of-type(6) {
+  opacity: 0.6;
+}
+.table > .row > a:nth-of-type(7) {
+  opacity: 0.7;
+}
+.table > .row > a:nth-of-type(8) {
+  opacity: 0.8;
+}
+.table > .row > a:nth-of-type(9) {
+  opacity: 0.9;
+}
+.table > .row > a:nth-of-type(10) {
+  opacity: 1;
+}
+
+
+.table > .row:nth-of-type(1) > a {
+  background-color: var(--orange);
+}
+.table > .row:nth-of-type(2) > a {
+  background-color: var(--yellow);
+}
+.table > .row:nth-of-type(3) > a {
+  background-color: var(--lawngreen);
+}
+.table > .row:nth-of-type(4) > a {
+  background-color: var(--lawngreen);
+}
+.table > .row:nth-of-type(5) > a {
+  background-color: var(--bluesky);
+}
+.table > .row:nth-of-type(6) > a {
+  background-color: var(--darkblue);
+}
+.table > .row:nth-of-type(7) > a {
+  background-color: var(--darkblue);
+}
+
+.table > .row:nth-of-type(8) > a {
+  background-color: var(--purple);
+}
+.table > .row:nth-of-type(9) > a {
+  background-color: var(--hotpink);
+}
+.table > .row:nth-of-type(10) > a {
+  background-color: var(--red);
+}
