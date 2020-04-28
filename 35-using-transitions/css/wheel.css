@@ -21,6 +21,12 @@
 */
 .scene:hover .wheel {
   left: 100%;
+  transform: rotate(360deg);;
+}
+
+.scene .wheel {
+  transition-timing-function: ease;
+  transition-duration: 3s
 }
 
 /* Wheel setup */
