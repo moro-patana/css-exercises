@@ -27,12 +27,11 @@
             <ol>
               <li>
                   We use separate functions, in order, and as values, e.g. transform: scale(0.5) rotate(45deg) because
-                  here transform is shorthand of transform-scale and transform-rotate. We also should scale it
-                  first and then rotate to point the original position.
+                  the order is the most important.
               </li>
               <li>
                 We could have had separate properties like: transform-scale: 0.5;, or transform-rotate: 45deg
-                when we specify what do we want to transform.
+                so that they will not delete each other.
               </li>
             </ol>
           </li>
@@ -61,8 +60,8 @@
               </li>
             </ol>
           </li>
-          <li>If we want to go 3D, we need to use transform-style to set the view over the scene.</li>
-          <li>By using transform-translate property, we can control what the transform uses in its calculations in terms of the box model.</li>
+          <li>If we want to go 3D, we need to use transform: perspective() to set the view over the scene.</li>
+          <li>By using transform-box property, we can control what the transform uses in its calculations in terms of the box model.</li>
         </ol>
       </div>
     </main>
