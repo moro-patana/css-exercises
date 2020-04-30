@@ -1,0 +1,70 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Transforms</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Transforms
+      </h1>
+    </header>
+    <main>
+      <div>
+        <ol>
+          <li>These are the functions we can use in a trasform's values:
+            <ol>
+              <li>Transform: scale()</li>
+              <li>Transform: rotate()</li>
+              <li>Transform: translate()</li>
+              <li>Transform: skew()</li>
+              <li>Transform: matrix()</li>
+              <li>Transform: perpective()</li>
+            </ol>
+          </li>
+          <li>
+            <ol>
+              <li>
+                  We use separate functions, in order, and as values, e.g. transform: scale(0.5) rotate(45deg) because
+                  here transform is shorthand of transform-scale and transform-rotate. We also should scale it
+                  first and then rotate to point the original position.
+              </li>
+              <li>
+                We could have had separate properties like: transform-scale: 0.5;, or transform-rotate: 45deg
+                when we specify what do we want to transform.
+              </li>
+            </ol>
+          </li>
+          <li>Often, we want to move the central pin or axis of the transform away from its default position.
+              We can use transform-origin property to set that.
+          </li>
+          <li>It is preferable to use transform: translate() rather than position and its associated properties because
+              in position you have to set position's values and left or right too.
+          </li>
+          <li>
+            <ol>
+              <li>
+                  When an element is translated / transformed, the flow of the document does not change.
+              </li>
+              <li>
+                  Transform is similar to position property.
+              </li>
+            </ol>
+          </li>
+          <li>
+            <ol>
+              <li>
+                  The problem you run in when overriding a transform in a specific selector:
+              <li>
+                the one which you set in the parent will not work.
+              </li>
+            </ol>
+          </li>
+          <li>If we want to go 3D, we need to use transform-style to set the view over the scene.</li>
+          <li>By using transform-translate property, we can control what the transform uses in its calculations in terms of the box model.</li>
+        </ol>
+      </div>
+    </main>
+  </body>
+  </html>
