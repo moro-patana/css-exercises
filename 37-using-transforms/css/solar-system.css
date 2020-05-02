@@ -53,6 +53,7 @@
   background-color: navy;
   background-image: var(--sphere-lighting);
   background-repeat: no-repeat;
+
 }
 
 #luna {
@@ -61,7 +62,8 @@
   height: var(--luna-size);
   background-image: var(--sphere-lighting);
   background-repeat: no-repeat;
-  transform: translateX(55px);
+  position: absolute;
+  transform: translate(60px) translate(-50%, -50%);
 }
 
 .scene:hover #solar-system,
@@ -72,7 +74,8 @@
 }
 
 .scene:hover #solar-system {
-transform: translate(-50%, -50%) rotate(1turn);
+  transform: translate(-50%, -50%) rotate(1turn);
+  transform-style: preserve-3d;
 
 }
 
@@ -81,6 +84,8 @@ transform: translate(-50%, -50%) rotate(1turn);
 }
 
 .scene:hover #earth {
+  transform: translate(-50%, -50%) rotate(45deg);
+
 }
 
 .scene:hover #luna {
