@@ -57,7 +57,7 @@
     var(--white-disc);
   background-position:
     50% 50%;
-    transform: translate3d(0, 0, 125px);
+  transform: translate3d(0, 0, 125px);
 }
 
 #face-2 {
@@ -79,7 +79,7 @@
     20% 20%,
     50% 50%,
     80% 80%;
-    transform: rotateX(90deg) translate3d(0, 0, 125px);
+  transform: rotateX(90deg) translate3d(0, 0, 125px);
 }
 
 #face-4 {

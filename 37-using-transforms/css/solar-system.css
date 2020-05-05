@@ -53,6 +53,7 @@
   background-color: navy;
   background-image: var(--sphere-lighting);
   background-repeat: no-repeat;
+  transform: translate(-50%, -50%) rotate(-45deg);
 
 }
 
@@ -84,10 +85,10 @@
 }
 
 .scene:hover #earth {
-  transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
 
 }
 
 .scene:hover #luna {
-
+  transform: translate(60px) translate(-50%, -50%) rotate(45deg);
 }
