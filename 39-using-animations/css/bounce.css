@@ -22,5 +22,19 @@
   background-position:
     50% -25px,
     50% 50%;
-  background-repeat: no-repeat;;
+  background-repeat: no-repeat;
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(var(--ball-diameter) * 4));
+  }
 }
