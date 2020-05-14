@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Font-face</title>
+</head>
+<body>
+  <header>
+    <h1>
+      Font-face
+    </h1>
+  </header>
+  <main>
+    <div>
+      <ol>
+        <li>
+          These are types of font formats:
+            <ol>
+              <li>svg</li>
+              <li>eot</li>
+              <li>otf</li>
+              <li>woof2</li>
+            </ol>
+        </li>
+        <li>WOOF2 is the best font file formats to use in all browsers.</li>
+        <li>
+          The difference between:
+           <ol>
+             <li><code>@font-face</code>: must define a name for the font and use font properties.</li>
+             <li><code>@keyframes</code>/<code>@media</code>queries/<code>@supports</code>blocks: apply different styles.</li>
+           </ol>
+        </li>
+        <li>Some fonts come with licencing restrictions. That means they can be embendded in your
+          publication and printed anywhere.
+        </li>
+        <li>We need to provide six font-face blocks if we want tosupport all the chosen fonts.</li>
+        <li>It is roughly 160KB.</li>
+        <li>We would use use <q>--webkit-</q> if we chose to offer WOOF2 as well as WOOF</li>
+        <li>We can use <b>local()</b> to make sure the user's browser does not download
+        the fonts they might already have.</li>
+        <li>
+          Sometimes we have to assign fallback fonts for our custom webfonts we add via @font-face. These are some thing to keep in mind
+          when it comes to selecting these fallback fonts:
+            <ol>
+              <li>try to load the fonts and the font content. </li>
+              <li>set up font request.</li>
+            </ol>
+        </li>
+        <li>The browser can use one of several strategies for loading the fonts, e.g. showing nothing until the font is downloaded, or using a fallback font first.
+          We can use <b>font-display</b> to help the browser decide on which strategy to use.
+        </li>
+      </ol>
+    </div>
+  </main>
+
+</body>
+</html>
