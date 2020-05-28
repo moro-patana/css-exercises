@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    :root {
+      --columns: 4;
+      --cell-color: red;
+      --base-unit:2rem;
+    }
+    ul {
+      display: grid;
+      grid-template-columns: repeat(var(--columns),1fr);
+      list-style: none;
+      gap: var(--base-unit);
+      padding: 0;
+      text-align: center;
+      font-size: var(--base-unit);
+      line-height: 1;
+    }
+    li {
+      background-color: var(--cell-color);
+    }
+
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li>Cell</li>
+    <li>Cell</li>
+    <li>Cell</li>
+    <li>Cell</li>
+    <li>Cell</li>
+    <li>Cell</li>
+    <li>Cell</li>
+    <li>Cell</li>
+    <li>Cell</li>
+    <li>Cell</li>
+    <li>Cell</li>
+    <li>Cell</li>
+  </ul>
+</body>
+
+</html>

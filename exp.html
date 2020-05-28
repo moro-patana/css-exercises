@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    :root {
+      --red: 360;
+      --green: 234;
+      --accessible-color: calc(
+                          (var(--red) * 563) +
+                          (var(--green) * 325));
+    }
+    div > p {
+  color:
+    rgb(
+      var(--accessible-color),
+      var(--accessible-color)
+    );
+  background-color:
+    rgb(
+      var(--red),
+      var(--green)
+    );
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>
+      Document
+    </h1>
+  </header>
+<div>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+    Ducimus quo illo ipsa quaerat, itaque, pariatur rerum cupiditate commodi consectetur laudantium quod consequuntur odio iure.
+    Obcaecati quaerat modi quia. Minus, fugiat.
+  </p>
+</div>
+</body>
+</html>
