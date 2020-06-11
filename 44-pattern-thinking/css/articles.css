@@ -32,22 +32,36 @@
 
 .example > article > .content {
   --article-elem-color: 63, 191, 63;
-  margin-block-start: 1rem;
+ /* margin-block-start: 1rem;*/
+
 
 }
 
 .example > article > footer {
   --article-elem-color: 191, 63, 63;
-  margin-block-start: 1rem;
+  /*margin-block-start: 1rem;*/
 
 }
 
 /* 1 */
 [data-example="1"] {
   border: 1rem solid black;
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+[data-example="1"] header {
+  display: flex;
+  justify-content: center;
+  margin-block-end: 1rem;
+}
+[data-example="1"] div {
+  display: flex;
+  justify-content: center;
+  margin-block-end: 1rem;
+}
+[data-example="1"] footer {
+  display: flex;
+  justify-content: center;
 }
 
 /* 2 */
@@ -57,11 +71,32 @@ align-items: center;
   grid-template-columns: 1fr;
   row-gap: 1rem;
 }
+[data-example="2"] header,
+[data-example="2"] div,
+[data-example="2"] footer {
+  display: grid;
+  justify-content: center;
+}
+[data-example="2"] header,
+[data-example="2"] div {
+  margin-block-end: 1rem;
+}
+
 
 /* 3 */
 [data-example="3"] {
   border: 1rem solid black;
-  display: inline-block;
-  align-self: center;
+  display: block;
+  justify-content: center;
+}
+[data-example="3"] header,
+[data-example="3"] div,
+[data-example="3"] footer {
+  display: block;
+  justify-content: center;
+}
 
+[data-example="3"] header,
+[data-example="3"] div {
+  margin-block-end: 1rem;
 }
