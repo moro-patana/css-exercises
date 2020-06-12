@@ -24,10 +24,21 @@
 }
 /* 5 */
 [data-example="5"] {
-
+display: grid;
+grid-template-columns: 1fr;
+align-items: center;
+justify-content: center;
 }
-
+[data-example="5"] .centred {
+  display: grid;
+  justify-content: center;
+}
 /* 6 */
 [data-example="6"] {
-
+  display: block;
+  align-items: center;
+}
+[data-example="6"] .centred {
+  display: block;
+  align-items: center;
 }
