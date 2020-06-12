@@ -31,7 +31,6 @@ section + section {
 
 .example {
   border: 1px solid #ccc;
-  padding: 1rem;
 }
 
 .example + .example {
@@ -46,11 +45,12 @@ section header img {
   display: flex;
   flex-direction: row;
   justify-content: stretch;
+
 }
 
 .example_group .example {
   margin-block-start: 0;
-  margin-inline-start: 1rem;
+  margin-inline-start: 0;
   margin-inline-end: 1rem;
   flex-grow: 1;
   position: relative;
