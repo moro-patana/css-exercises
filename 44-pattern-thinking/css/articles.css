@@ -32,15 +32,10 @@
 
 .example > article > .content {
   --article-elem-color: 63, 191, 63;
- /* margin-block-start: 1rem;*/
-
-
 }
 
 .example > article > footer {
   --article-elem-color: 191, 63, 63;
-  /*margin-block-start: 1rem;*/
-
 }
 
 /* 1 */
@@ -86,17 +81,16 @@
 /* 3 */
 [data-example="3"] {
   border: 1rem solid black;
-  display: block;
+  display: inline-block;
   justify-content: center;
 }
-[data-example="3"] header,
-[data-example="3"] div,
-[data-example="3"] footer {
-  display: block;
+[data-example="3"] h2,
+[data-example="3"] p {
+  display: inline-block;
   justify-content: center;
 }
 
-[data-example="3"] header,
-[data-example="3"] div {
+[data-example="3"] .content {
+  margin-block-start: 1rem;
   margin-block-end: 1rem;
 }
